@@ -6,7 +6,20 @@
   
   }
   
+  @media (max-width: 599px) {
+
+    .columns {
   
+      margin: 0px 5px;
+  
+      display: flex;
+  
+      height: 300px;
+  
+      width: 100%;
+  
+    }
+  }
   
   header {
   
