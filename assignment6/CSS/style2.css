@@ -1,0 +1,93 @@
+header{
+    background-color:deepskyblue;
+    height: 80px;
+    border: none;  
+}
+.golden{
+    font-size: 40px;
+    color: white;
+    
+   
+}
+
+.product, .suppliers{
+    font-size: 25px; 
+   padding-left: 50px;
+   color: white;
+   border-left: 2px solid  white ;
+   
+
+   
+}
+
+.hello{
+    font-size: 25px; 
+    padding-left: 300px;
+    color: white;
+  
+   
+ }  
+ .button{
+    align-items: center;
+     border-radius: 8px;
+     font-size: 20px; 
+     align-content: center;
+     border: none;
+
+  
+ }
+ .container {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; 
+   
+  }
+  
+ h4{
+     color: gray;
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode';
+ }
+  .container2:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+   .number, .name, .price{
+       width: 80%;
+       height: 2pc;
+       border-radius: 6px;
+   }
+   .stock, .supplier, .date{
+    width: 40%; 
+    height: 2pc;
+    border-radius: 6px; 
+   }
+   .buttons{
+       margin-left: 75%;
+   }
+   .reset{
+border-style: solid;
+border-color:darkblue;
+color: darkblue;
+border-radius: 4px;
+height: 2pc;
+border-width: 1px;
+   }
+   .cancel{
+       border-style: solid;
+       border-color: red;
+       color: red;
+       border-radius: 4px;
+       height: 2pc;
+       border-width: 1px;
+   }
+   .submit {
+       border-style: solid;
+       border-color: rgb(54, 178, 219);
+       color:rgb(54, 178, 219) ;
+       border-radius: 4px;
+       height: 2pc;
+       border-width: 1px;
+   }

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+        <!--moch set up-->
+        <script>mocha.setup('bdd');</script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+        <!--Assert asignin to chi-->
+        <script>let assert = chai.assert;</script>
+        <!--JS code call here-->
+        <script src="./JS/jsTest.js"></script>
+        <script src ="./JS/jsFunction.js"></script>
+        
+    </head>
+    <body>
+        <div id="mocha"></div>
+        <script>
+            mocha.run();
+          </script>
+    </body>
+</html>

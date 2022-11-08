@@ -1,0 +1,55 @@
+
+    <!--1. Implement code for a web page the displays the attached Web Form (webform1.PNG).
+
+2. In your html form markup code from task 1, include a feature such that the User can only submit the form if 
+the Password field is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter).
+
+3. Add to your above web form, an additional text input field, where the user must only enter a website url, 
+and they must enter it beginning with either the string, "http://" or "https://".
+
+4. Implement code for another web page that displays as shown in the attached image including 
+the navbar and the Web Form (Webform2.PNG)-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebForm1</title>
+    <link href="../CSS/style1.css" rel="stylesheet">
+</head>
+<body>
+  <form>
+      <div class="email-form">
+        <label for="email">Email address</label>
+      </div>
+      <div>
+        <input type="text" name="email" id="email" placeholder="Enter email" class="email-form"> 
+      </div>
+      <div id="msg" class="msg">We'll never share your email with anyone else.</div>
+     <br>
+
+      <div class="password-form">
+        <label for="Password">Password</label>
+      </div>
+      <div>
+        <input type="text" name="password" id="Password" placeholder="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{10,}" title="Password is at least 10 characters in length and contain at least one number and one uppercase and lowercase letter"> 
+      </div>
+      
+      <br>
+      <div>
+        <label for="url">url</label>
+      </div>
+      <div>
+        <input type="text" name="url" id="url" placeholder="url"  pattern="http(s)?://.+" title='URL beginning with either the string, "http://" or "https://"' class="url-form"> 
+      </div>
+      <div>
+        <input type="checkbox" name="checkbox" id="checkbox"> 
+        <label class="checklabel" for="checkbox">check me out</label>
+        
+      </div>
+      <button type="button" class="submit">Submit</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.email-form, .password-form, .url-form{
+    width: 85%;
+    height: 3pc;
+    border-radius: 8px;
+    border-color: lightgrey;
+    }
+    #msg{
+        color: gray;
+    }
+    .submit{
+        background-color:dodgerblue;
+        border-radius: 8px;
+        border: none;
+        color: white;
+        height: 35px;
+        width: 80px
+    }
+    #Password{
+        width: 85%;
+    height: 3pc;
+    border-radius: 8px;
+    border-color: lightgrey;
+
+    }
