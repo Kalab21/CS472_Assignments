@@ -11,7 +11,7 @@
     "express",
     "node"
   ],
-  "author": "",
+  "author": "Kalabe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",

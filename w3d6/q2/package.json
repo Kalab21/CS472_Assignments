@@ -1,16 +1,16 @@
 {
-  "name": "q4",
+  "name": "q2",
   "version": "1.0.0",
-  "description": "Express",
+  "description": "WAP",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx nodemon index.js"
+    "dev": "node index.js"
   },
   "author": "Kalabe",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
   }
 }

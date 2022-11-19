@@ -7,7 +7,7 @@
     "test": "test",
     "dev": "npx nodemon index.js"
   },
-  "author": "Binod Gurung",
+  "author": "Kalabe",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
