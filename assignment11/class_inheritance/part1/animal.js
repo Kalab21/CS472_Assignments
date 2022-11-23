@@ -16,4 +16,4 @@ class Animal {
   }
   
   let rabbit = new Rabbit("White Rabbit"); //Okay now
-  alert(rabbit.name); // White Rabbit
+  alert(rabbit.name); // White Rabbitgi
